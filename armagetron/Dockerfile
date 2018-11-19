@@ -9,3 +9,5 @@ RUN /install.sh
 ADD start-* /tron/
 
 CMD ["/tron/start-ffa.sh"]
+
+EXPOSE 4534/udp
